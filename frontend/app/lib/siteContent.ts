@@ -16,19 +16,20 @@ export type BlogPostSummary = {
 };
 
 export const student: StudentProfile = {
-  name: "${STUDENT_NAME}",
-  tagline: "${STUDENT_TAGLINE}",
-  email: "${STUDENT_EMAIL}",
-  location: "${STUDENT_LOCATION}",
+  name: "Olivia Martin",
+  tagline:
+    "Business student specializing in internal audit, data analytics, and global strategy",
+  email: "oliviamichellemartin@gmail.com",
+  location: "New Orleans, Louisiana",
   about:
-    "${STUDENT_ABOUT}",
+    "I'm a business student focused on internal audit and risk, with a growing interest in how data and AI are reshaping the way organizations detect fraud, manage risk, and make smarter decisions. I enjoy breaking down complex problems, whether that's analyzing data, researching emerging business trends, or exploring how technology can make processes more efficient and resilient. Outside the classroom, I'm drawn to global business and the way different markets and cultures approach risk differently. I'm currently building toward the CIA and looking for opportunities where audit meets innovation.",
   interests: [
-    "${INTEREST_1}",
-    "${INTEREST_2}",
-    "${INTEREST_3}",
-    "${INTEREST_4}",
-    "${INTEREST_5}",
-    "${INTEREST_6}",
+    "Data Analytics — turning raw numbers into decisions that actually mean something",
+    "Internal Audit & Risk — understanding what keeps organizations honest and resilient",
+    "Fraud Examination — following the money and finding what doesn't add up",
+    "AI in Business — exploring how automation and intelligence are changing the audit landscape",
+    "Global Business & Travel — seeing how risk, culture, and strategy look different across borders",
+    "Research & Problem-Solving — digging into complex questions until they make sense",
   ],
 };
 
